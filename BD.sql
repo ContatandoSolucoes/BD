@@ -8,7 +8,8 @@ CREATE TABLE tbl_usuario (
   nome_usuario VARCHAR(50) NOT NULL,
   email VARCHAR(50) NOT NULL,
   senha VARCHAR(50) NOT NULL,
-  nascimento DATE NOT NULL
+  nascimento DATE NOT NULL,
+  imagem varchar(256) not null
 );
 
 -- Tabela tbl_denuncia
@@ -18,5 +19,6 @@ CREATE TABLE tbl_denuncia (
   tipo_problema VARCHAR(100),
   latitude float,
   longitude float,
-  imagem blob not null
+  imagem varchar(256) not null,
+  coluna enum('ABERTO','RESOLVIDO')
 );
