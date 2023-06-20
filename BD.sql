@@ -9,7 +9,7 @@ CREATE TABLE tbl_usuario (
   email VARCHAR(50) NOT NULL,
   senha VARCHAR(50) NOT NULL,
   nascimento DATE NOT NULL,
-  imagem varchar(256) not null
+  imagem VARCHAR(256)
 );
 
 -- Tabela tbl_denuncia
