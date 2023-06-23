@@ -20,5 +20,5 @@ CREATE TABLE tbl_denuncia (
   latitude float,
   longitude float,
   imagem varchar(256) not null,
-  coluna enum('ABERTO','RESOLVIDO')
+  statu enum('ABERTO','RESOLVIDO')
 );
